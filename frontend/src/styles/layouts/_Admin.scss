@@ -1,0 +1,25 @@
+.adminPadre{
+    .admins{
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        gap: 2rem;
+        margin-top: 3rem;
+        .card{
+            border: 1px solid gray;
+            border-radius: .3rem;
+            padding: 1rem;
+            text-align: center;
+            font-weight: 500;
+            .title{
+                font-size: 1.3rem;
+            }
+            span{
+                font-weight: 800;
+                margin-right: 1rem;
+            }
+        }
+    }
+}

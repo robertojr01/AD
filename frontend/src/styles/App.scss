@@ -1,0 +1,15 @@
+//Imports
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+
+//Base
+@import './base/Globales';
+
+//Layouts
+@import './layouts/Login';
+@import './layouts/Home';
+@import './layouts/Admin';
+@import './layouts/Drone';
+
+//Utils
+@import './context/Modal';
+@import './context/Toast';
